@@ -48,7 +48,7 @@ First we need to:
 
 This is accomplished using the setup.yml file:
 ```
-docker-compose -f setup.yml up
+docker-compose -f setup.yml up --remove-orphans
 ```
 
 Please take note after the setup completes it will output the password
